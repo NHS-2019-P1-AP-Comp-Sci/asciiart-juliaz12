@@ -14,14 +14,59 @@
  *
  */
 
-// YOU CODE HERE :) 
+// YOU CODE HERE :)              
 
 public class ASCIIArt {
-	public static void main (String [] args) {
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
+	public static void topofFlute() {
+		System.out.println(" __________________\\______q_/_______,,______");
+	}
+	
+	public static void fluteHeadjoint() {
+		System.out.print("(__(_o_)_____");
+	}
+	
+	public static void fluteBody() {
+		System.out.print("|__|___o__qQQQ__QQQQQ_|");
+	}
+	public static void fluteFootjoint() {
+		System.out.println("CluOOO__)");
+	}
+	
+	public static void flute() {
+		topofFlute();
+		fluteHeadjoint();
+		fluteBody();
+		fluteFootjoint();
+	}
+	
+	public static void topofStar() {
+		System.out.print("_\\/_");
+	}
+	
+	public static void bottomofStar() {
+		System.out.print("/\\");
+	}
+	
+	public static void aboveFlute() {
+		System.out.print("      ");
+		topofStar();
+		System.out.print("          ___  ___\n       ");
+		bottomofStar();
+		System.out.println("          /   \\/   \\");
+	}
+	
+	public static void belowFlute() {
+		System.out.println("                     \\    /");
+		System.out.print("                      \\  /            ");
+		topofStar();
+		System.out.print("\n                       \\/              ");
+		bottomofStar();
+	}
+	
+	public static void main(String[] args) {
+		aboveFlute();
+		flute(); 
+		belowFlute();
+		System.out.println("\n\nA flute sparks joy in a one's heart.");
 	}
 }
